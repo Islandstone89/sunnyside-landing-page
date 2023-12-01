@@ -136,7 +136,7 @@ a {
 
 .services {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     line-height: 1.5;
 }
 
@@ -219,7 +219,7 @@ a {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 360px;
+    grid-template-rows: auto;
 }
 
 .testimonials__header {
@@ -231,6 +231,7 @@ a {
 
 .testimonial {
     display: grid;
+    gap: 2rem;
     align-content: space-between;
 }
 
